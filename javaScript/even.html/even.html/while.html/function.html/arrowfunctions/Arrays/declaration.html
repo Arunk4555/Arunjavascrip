@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <script>
+            document.write("</br> players name:")
+            var players=["dhoni","willemson","morgon"," Ricky ponting"];
+            for(i=0;i<players.length;i++)
+            {
+                document.write("</br> "+players[i]);
+            }
+            document.write("</br> jersey number:");
+
+            var jersey=new Array();
+            jersey[0]=07;
+            jersey[1]=21;
+            jersey[2]=16;
+            jersey[3]=14;
+            for(i=0;i<jersey.length;i++)
+            
+            {
+                document.write("</br>"+jersey[i]);
+
+            }
+            document.write("<hr>")
+
+            captin={jerseyno:07,name:"Dhoni",tag:"Caprin Cool"}
+            document.write(captin.jerseyno+" "+captin.name+" "+captin.tag);
+             
+            var rohit=new Object();
+            rohit.age=35;
+            rohit.name="rohit";
+            rohit.tag="best ipl captin";
+            document.write("</br>")
+            document.write(rohit.age+" "+rohit.name+" "+rohit.tag);
+            
+
+            function msd(no,name,age)
+            {
+                this.no=no;
+                this.name=name;
+                this.age=age;
+            }
+            e1=new msd(07,"mahendhara singh Dhoni",41);
+            document.write("</br>");
+            document.write(e1.no+" "+e1.name+" "+e1.age);
+        </script>
+    </head>
+</html>
